@@ -1,0 +1,50 @@
+
+.top-content{
+    display: flex;
+}
+
+.sidebar{
+    width: 200px;
+    height: 890px;
+    background-color: black;
+}
+
+
+header{
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    background-color: hsl(222deg 38% 5%);
+    justify-content: flex-end;
+    padding: 20px 10px;
+    position: fixed;
+}
+
+.btn{
+    background-color: hsl(222deg 38% 5%);
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    padding: 15px 30px;
+    text-align: center;
+    line-height: 4px;
+    font-size: 10px;
+}
+
+/* Main */
+
+main{
+    background-color: hsl(219deg 26% 11%);
+    height: calc(100vh - 80px - 80px);
+    width: calc(100% - 200px);
+    overflow: auto;
+    
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #282828;
+}
