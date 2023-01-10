@@ -1,6 +1,7 @@
 
 .top-content{
     display: flex;
+    height: calc(100vh - 80px);
 }
 
 
@@ -8,7 +9,7 @@
 
 .sidebar{
     width: 232px;
-    height: 890px;
+    height: 100%;
     background-color: black;
     padding-top: 30px;
     padding-left: 20px;
@@ -22,6 +23,7 @@
     width: 140px;
     padding-bottom: 20px;
 }
+
 
 ul{
     list-style: none;
@@ -38,7 +40,6 @@ ul li{
     padding-top: 14px;
     padding-bottom: 15px;
     font-size: 14px;
-    font-weight: bolder;
 }
 
 .playlist{
@@ -54,7 +55,6 @@ ul li{
     padding: 4px 5px;
     background-color: grey;
     color: black;
-    font-weight: bolder;
     text-align: center;
     font-size: 20px;
     margin-right: 10px;
@@ -71,14 +71,13 @@ ul li{
     width: 20px;
     height: 20px;
     margin-top: 9px;
-    font-weight: bolder;
 
 }
 
 /* content */
 
 .content{
-    width: 100%;
+    width: calc(100% - 232px);
 }
 
 
@@ -86,7 +85,7 @@ ul li{
 /* Header */
 header{
     display: flex;
-    width: 1000px;
+    width: calc(100% - 232px);
     height: 80px;
     background-color: hsl(222deg 38% 5%);
     opacity: .8;
@@ -110,10 +109,87 @@ header{
 
 main{
     background-color: hsl(219deg 26% 11%);
-    height: calc(100vh - 80px);
+    height: 100%;
     padding-top: 80px;
     overflow: auto;
-    
+}
+
+.navbar{
+    color: hsl(214deg 3% 50%);
+    text-align: center;
+    margin-top: 30px;   
+}
+
+.navbar span{
+    padding: 15px;
+}
+
+
+/* PRIMA SECTION */
+
+.recently{
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 26px;
+}
+
+.row img{
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.row h2{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.row h3{
+    color: hsl(214deg 3% 50%);
+    text-align: center;   
+}
+
+/* SECONDA SECTION */
+
+.createdfor{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.createdfor h2{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.createdfor span{
+    color: hsl(214deg 3% 50%);
+    margin-bottom: 30px;
+}
+
+/* TERZA SECTION  */
+
+.artists {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.artists h2 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.artists span {
+    color: hsl(214deg 3% 50%);
+    margin-bottom: 30px;
+}
+
+.circle{
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -122,4 +198,5 @@ footer{
     width: 100%;
     height: 80px;
     background-color: #282828;
+    
 }
