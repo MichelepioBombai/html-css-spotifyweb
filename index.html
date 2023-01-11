@@ -26,68 +26,83 @@
 
 <body>
 
+    <!-- TOP CONTENT -->
+
     <section class="top-content">
+
+        <!-- SIDEBAR -->
 
         <div class="sidebar">
 
-            <section class="logo">
-              <img src="./img/logo.svg" alt="">
-            </section>
+            <!-- PRIMA SECTION SIDEBAR-->
 
             <section>
+              <img class="logo" src="./img/logo.svg" alt="">
+              <img class="logo-small" src="./img/logo-small.svg" alt="">
+            </section>
 
+            <!-- SECONDA SECTION SIDEBAR-->
+
+            <section>
                 <ul>
-                    <li class="border-green"><a href=#></a> <img class="w-20" src="./img/home.svg" alt=""> Home</li>
-                    <li><a href=#></a> <img class="w-20" src="./img/search.svg" alt=""> Cerca</li>
-                    <li><a href=#></a> <img class="w-20" src="./img/libreria.svg" alt=""> Libreria</li>
+                    <li class="border-green"><a href=#></a> <img class="w-20 w-40 " src="./img/home.svg" alt=""> <span class="xs">Home</span> </li>
+                    <li><a href=#></a> <img class="w-20 w-40" src="./img/search.svg" alt=""> <span class="xs">Cerca</span> </li>
+                    <li><a href=#></a> <img class="w-20 w-40" src="./img/libreria.svg" alt=""> <span class="xs">Libreria</span> </li>
                 </ul>
-
             </section>
+
+            <!-- TERZA SECTION SIDEBAR-->
 
             <section>
-                <h2 class="aside">PLAYLIST</h2>
-
+                <h2 class="aside xs">PLAYLIST</h2>
                 <ul class="playlist">
-                    <li><a href=""></a><span class="border-playlist"> <i class="fa-solid fa-plus"></i> </span> Crea Playlist </li>
+                    <li><a href=""></a><span class="border-playlist xs"> <i class="fa-solid fa-plus"></i> </span> <span class="xs">Crea Playlist</span>  </li>
                 </ul>
-
-                <ul class="nome-playlist">
+                <ul class="nome-playlist xs">
                     <li><a href=""></a>Nome Playlist</li>
                     <li><a href=""></a>Nome Playlist</li>
                     <li><a href=""></a>Nome Playlist</li>
                     <li><a href=""></a>Nome Playlist</li>
                     <li><a href=""></a>Nome Playlist</li>
                 </ul>
-
             </section>
+
+            <!-- QUARTA SECTION SIDEBAR-->
 
             <section class="profilo">
-                <i class="fa-solid fa-arrow-down"></i> Installa app
-                <hr>
-                <img class="user" src="./img/profile.svg" alt=""> John Doe
+                <div class="installa-app">
+                    <i class="fa-solid fa-arrow-down"></i> <span class="xs">Installa app</span> 
+                </div>
+                <hr class="xs">
+                <img class="user" src="./img/profile.svg" alt=""> <span class="xs">John Doe</span>
             </section>
 
         </div>
-           
+
+           <!-- CONTENT -->
 
         <div class="content">
+
+            <!-- HEADER -->
 
             <header>
                 <button class="btn">EFFETTUA L'UPGRADE</button>
             </header>
+            
+            <!-- MAIN -->
 
             <main>
 
                 <div class="navbar">
-                    <span>IN EVIDENZA</span>
-                    <span>PODCAST</span>
-                    <span>CLASSIFICHE</span>
-                    <span>GENERI E MOOD</span>
+                    <span class="shadow space">IN EVIDENZA</span>
+                    <span class="space">PODCAST</span>
+                    <span class="space">CLASSIFICHE</span>
+                    <span class="xs1">GENERI E MOOD</span>
                     <span>NUOVE USCITE</span>
                     <span>SCOPRI</span>
                 </div>
 
-                <!-- PRIMA SECTION -->
+                <!-- PRIMA SECTION MAIN-->
 
                 <section>
 
@@ -131,11 +146,83 @@
                             <h3>Subtitle</h3>
                         </div>
 
+                        <div class="col-3">
+                            <img src="./img/metal_lifting.jpg" alt="">
+                            <h2>Heavy Metal</h2>
+                            <h3>subtitle</h3>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img src="./img/stranger.jpeg" alt="">
+                            <h2>Stranger Things Vol. 1 (a Netflix Original Series Soundtrack)</h2>
+                            <h3>Kylie Dixon & Michael Stein</h3>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img src="./img/aquietplace.jpeg" alt="">
+                            <h2>A quiet place</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img src="./img/split.jpeg" alt="">
+                            <h2>Split</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img src="./img/cure.jpeg" alt="">
+                            <h2>A cure for wellnessl</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img src="./img/sinister.jpeg" alt="">
+                            <h2>Sinister</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+
+                        <div class="col-6">
+                            <img src="./img/metal_lifting.jpg" alt="">
+                            <h2>Heavy Metal</h2>
+                            <h3>subtitle</h3>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="./img/stranger.jpeg" alt="">
+                            <h2>Stranger Things Vol. 1 (a Netflix Original Series Soundtrack)</h2>
+                            <h3>Kylie Dixon & Michael Stein</h3>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="./img/aquietplace.jpeg" alt="">
+                            <h2>A quiet place</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="./img/split.jpeg" alt="">
+                            <h2>Split</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="./img/cure.jpeg" alt="">
+                            <h2>A cure for wellnessl</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="./img/sinister.jpeg" alt="">
+                            <h2>Sinister</h2>
+                            <h3>Subtitle</h3>
+                        </div>
+
                     </div>
 
                 </section>
 
-                <!-- SECONDA SECTION -->
+                <!-- SECONDA SECTION MAIN-->
 
                 <section>
 
@@ -156,11 +243,31 @@
                             <h2>Daily Mix 1</h2>
                         </div>
 
+                        <div class="col-3">
+                            <img src="./img/radar.jpeg" alt="">
+                            <h2>Release Radar</h2>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img src="./img/mixdaily.jpeg" alt="">
+                            <h2>Daily Mix 1</h2>
+                        </div>
+
+                        <div class="col-6">
+                            <img src="./img/radar.jpeg" alt="">
+                            <h2>Release Radar</h2>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="./img/mixdaily.jpeg" alt="">
+                            <h2>Daily Mix 1</h2>
+                        </div>
+
                     </div>
 
                 </section>
 
-                <!-- TERZA SECTION -->
+                <!-- TERZA SECTION MAIN-->
 
                 <section>
 
@@ -181,6 +288,26 @@
                             <h2>Ludovico Einaudi</h2>
                         </div>
 
+                        <div class="col-3">
+                            <img class="circle" src="./img/youg.jpeg" alt="">
+                            <h2>Lana del Rey</h2>
+                        </div>
+                        
+                        <div class="col-3">
+                            <img class="circle" src="./img/einaudi.jpeg" alt="">
+                            <h2>Ludovico Einaudi</h2>
+                        </div>
+
+                        <div class="col-6">
+                            <img class="circle" src="./img/youg.jpeg" alt="">
+                            <h2>Lana del Rey</h2>
+                        </div>
+                        
+                        <div class="col-6">
+                            <img class="circle" src="./img/einaudi.jpeg" alt="">
+                            <h2>Ludovico Einaudi</h2>
+                        </div>
+
                     </div>
 
                 </section>
@@ -195,7 +322,7 @@
 
     <footer>
 
-        <!-- PRIMA SECTION -->
+        <!-- PRIMA SECTION FOOTER-->
 
         <section class="player">
 
@@ -207,7 +334,7 @@
 
         </section>
 
-        <!-- SECONDA SECTION -->
+        <!-- SECONDA SECTION FOOTER-->
 
         <section class="footer-end">
 
@@ -230,7 +357,7 @@
 
             </div>
 
-            <div>
+            <div class="volume">
                 <div class="icons-volume">
                     <i class="fa-solid fa-table-list"></i>
                     <i class="fa-solid fa-tv"></i>
