@@ -175,14 +175,14 @@ main{
 .recently{
     color: white;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 5px;
     font-size: 26px;
 }
 
 .row img{
     width: 220px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 .row h2{
@@ -190,11 +190,15 @@ main{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
+    position: relative;
+    right: 25px;
 }
 
 .row h3{
     color: hsl(214deg 3% 50%);
-    text-align: center;   
+    text-align: center;
+    position: relative;
+    right: 25px;
 }
 
 .col-3{
@@ -209,7 +213,7 @@ main{
 /* SECONDA SECTION MAIN*/
 
 .createdfor{
-    margin-left: 30px;
+    margin-left: 5px;
     margin-top: 30px;
 }
 
@@ -227,7 +231,7 @@ main{
 /* TERZA SECTION  MAIN*/
 
 .artists {
-    margin-left: 30px;
+    margin-left: 5px;
     margin-top: 30px;
 }
 
@@ -258,7 +262,7 @@ footer{
 
 .player{
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -416,15 +420,14 @@ footer{
         text-align: center;
         margin-top: 15px;
         margin-bottom: 10px;
-        position: relative;
-        left: 25px; 
+       
     }
     
     .row h3 {
         color: hsl(214deg 3% 50%);
         text-align: center;
-        position: relative;
-        left: 25px;
+        
+        
     }
 
     .progress-bar {
@@ -473,6 +476,7 @@ footer{
     .player{
         position: relative;
         right: 28px;
+        
     }
 } 
 
@@ -594,7 +598,6 @@ footer{
         right: 90px;
     }
 
-
 }
 
 /* RESPONSIVE XS */
@@ -706,10 +709,5 @@ footer{
         bottom: 13px;
         right: 90px;
     }
-
-    
-
-    
-
     
 }
